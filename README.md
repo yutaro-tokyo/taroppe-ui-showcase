@@ -1,31 +1,45 @@
 # Taroppe UI Showcase
 
-A small, frontend-only showcase of reusable interface components from Taroppe.
+Taroppeで使用しているUIをもとに構成した、フロントエンド限定の小さなショーケースです。
 
-This repository intentionally contains:
+固定されたサンプルデータを使って、学習統計カード、テーマ選択、学習モード選択、ボタンなどのUIを表示します。バックエンドや外部サービスへは接続しません。
 
-- React presentation components
-- Tailwind CSS theme tokens
-- Fixed demonstration data
+## このリポジトリに含まれるもの
 
-It intentionally does not contain:
+- Reactで作成した表示用コンポーネント
+- Tailwind CSSによるスタイルとテーマ
+- UI確認用の固定サンプルデータ
+- ローカル起動に必要な最小限のVite設定
 
-- Backend or API implementation
-- Authentication
-- YouTube or transcript acquisition logic
-- Database code or data
-- Production configuration or secrets
+## このリポジトリに含まれないもの
 
-## Run locally
+- バックエンドとAPIの実装
+- ログイン・認証処理
+- YouTube連携や字幕取得処理
+- データベースのコードとデータ
+- 本番環境の設定とSecret
+
+このリポジトリ単体でTaroppe本体の機能を利用することはできません。公開しているのは、UIの表示と操作を確認するためのフロントエンドデモです。
+
+## ローカルで起動する
+
+Node.jsとnpmが必要です。
 
 ```bash
+git clone https://github.com/yutaro-tokyo/taroppe-ui-showcase.git
+cd taroppe-ui-showcase
 npm install
 npm run dev
 ```
 
-No environment variables or external services are required.
+ターミナルに表示されたローカルURLをブラウザで開いてください。環境変数や外部サービスの設定は必要ありません。
 
-## License
+本番用ビルドを確認する場合は、次を実行します。
 
-No open-source license has been granted yet. The source is public for viewing only unless a license is added later.
+```bash
+npm run build
+```
 
+## ライセンス
+
+現在、オープンソースライセンスは設定していません。ライセンスを追加するまでは、ソースコードの公開目的は閲覧に限られます。
