@@ -4,8 +4,6 @@
 
 **本番URL:** [https://taroppe.org](https://taroppe.org)
 
-**[Taroppeを開く](https://taroppe.org)**
-
 Taroppeは、好きなYouTube動画を英語学習用のカードにして、繰り返し復習できる学習アプリです。動画と字幕を使ったリスニング学習、カードの整理、学習状況に合わせた復習に対応しています。
 
 ## このリポジトリについて
